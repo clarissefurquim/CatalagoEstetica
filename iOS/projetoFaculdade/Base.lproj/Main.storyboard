@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Bn4-Fo-k1P">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Procedimentos View Controller-->
+        <scene sceneID="INw-UB-K3D">
+            <objects>
+                <viewController id="aM8-Ts-zsE" customClass="ProcedimentosViewController" customModule="projetoFaculdade" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8pq-86-X6Y">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fKy-Mm-qKc">
+                                <rect key="frame" x="20" y="390" width="374" height="72"/>
+                                <color key="backgroundColor" red="0.73226040599999997" green="0.66995745900000003" blue="0.66123443839999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="72" id="KcF-Ej-wkG"/>
+                                </constraints>
+                                <color key="tintColor" systemColor="secondarySystemGroupedBackgroundColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Massagem Modeladora">
+                                    <fontDescription key="titleFontDescription" name="Kefa-Regular" family="Kefa" pointSize="22"/>
+                                    <color key="baseForegroundColor" red="0.45799595119999997" green="0.28201660509999998" blue="0.29829123619999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="2QB-7H-ziW" kind="show" id="OwA-mh-13A"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xGR-je-yZ5">
+                                <rect key="frame" x="20" y="470" width="374" height="72"/>
+                                <color key="backgroundColor" red="0.73226040599999997" green="0.66995745900000003" blue="0.66123443839999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="72" id="SCD-45-dD2"/>
+                                </constraints>
+                                <color key="tintColor" systemColor="secondarySystemGroupedBackgroundColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Massagem Relaxante">
+                                    <fontDescription key="titleFontDescription" name="Kefa-Regular" family="Kefa" pointSize="22"/>
+                                    <color key="baseForegroundColor" red="0.45882352941176469" green="0.28235294117647058" blue="0.29803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="qaE-M3-iZ5" kind="show" id="PK9-Pm-gvb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JCc-xm-iFT">
+                                <rect key="frame" x="20" y="550" width="374" height="72"/>
+                                <color key="backgroundColor" red="0.73226040599999997" green="0.66995745900000003" blue="0.66123443839999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="72" id="DFH-tp-PDV"/>
+                                </constraints>
+                                <color key="tintColor" systemColor="secondarySystemGroupedBackgroundColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Drenagem Linfática">
+                                    <fontDescription key="titleFontDescription" name="Kefa-Regular" family="Kefa" pointSize="22"/>
+                                    <color key="baseForegroundColor" red="0.45799595119999997" green="0.28201660509999998" blue="0.29829123619999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="lMB-YN-VJx" kind="show" id="a11-7I-XeE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UeE-Ym-iz2">
+                                <rect key="frame" x="20" y="630" width="374" height="72"/>
+                                <color key="backgroundColor" red="0.73226040599999997" green="0.66995745900000003" blue="0.66123443839999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="72" id="FpQ-Ew-8H9"/>
+                                </constraints>
+                                <color key="tintColor" systemColor="secondarySystemGroupedBackgroundColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Limpeza de Pele">
+                                    <fontDescription key="titleFontDescription" name="Kefa-Regular" family="Kefa" pointSize="22"/>
+                                    <color key="baseForegroundColor" red="0.45799595119999997" green="0.28201660509999998" blue="0.29829123619999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="8H7-Ib-DWj" kind="show" id="H75-RL-mgB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NmJ-GP-TQi">
+                                <rect key="frame" x="20" y="710" width="374" height="72"/>
+                                <color key="backgroundColor" red="0.73226040599999997" green="0.66995745900000003" blue="0.66123443839999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="72" id="OMw-vv-iBO"/>
+                                </constraints>
+                                <color key="tintColor" systemColor="secondarySystemGroupedBackgroundColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Microagulhamento">
+                                    <fontDescription key="titleFontDescription" name="Kefa-Regular" family="Kefa" pointSize="22"/>
+                                    <color key="baseForegroundColor" red="0.45799595119999997" green="0.28201660509999998" blue="0.29829123619999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="w7c-0C-MXP" kind="show" id="4HI-8B-iXS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sgw-TD-1oR">
+                                <rect key="frame" x="20" y="790" width="374" height="72"/>
+                                <color key="backgroundColor" red="0.73226040599999997" green="0.66995745900000003" blue="0.66123443839999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="72" id="PFu-5k-bIE"/>
+                                </constraints>
+                                <color key="tintColor" systemColor="secondarySystemGroupedBackgroundColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Depilação">
+                                    <fontDescription key="titleFontDescription" name="Kefa-Regular" family="Kefa" pointSize="22"/>
+                                    <color key="baseForegroundColor" red="0.45799595119999997" green="0.28201660509999998" blue="0.29829123619999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="xab-aQ-cmk" kind="show" id="4b1-O9-De6"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="unnamed.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="kDL-i3-XA7">
+                                <rect key="frame" x="0.0" y="-14" width="467" height="382"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Eje-sV-dps"/>
+                        <color key="backgroundColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Eje-sV-dps" firstAttribute="trailing" secondItem="sgw-TD-1oR" secondAttribute="trailing" constant="20" id="0CD-Vx-DNx"/>
+                            <constraint firstItem="JCc-xm-iFT" firstAttribute="leading" secondItem="Eje-sV-dps" secondAttribute="leading" constant="20" id="0SO-Wz-xFy"/>
+                            <constraint firstItem="xGR-je-yZ5" firstAttribute="leading" secondItem="Eje-sV-dps" secondAttribute="leading" constant="20" id="1Qh-6Q-D0Y"/>
+                            <constraint firstItem="Eje-sV-dps" firstAttribute="trailing" secondItem="UeE-Ym-iz2" secondAttribute="trailing" constant="20" id="3gV-Wk-a63"/>
+                            <constraint firstItem="Eje-sV-dps" firstAttribute="trailing" secondItem="JCc-xm-iFT" secondAttribute="trailing" constant="20" id="3hH-nZ-E8f"/>
+                            <constraint firstItem="xGR-je-yZ5" firstAttribute="top" secondItem="fKy-Mm-qKc" secondAttribute="bottom" constant="20" id="6TX-wQ-bNR"/>
+                            <constraint firstItem="kDL-i3-XA7" firstAttribute="top" secondItem="8pq-86-X6Y" secondAttribute="top" id="CUT-6h-X3H"/>
+                            <constraint firstItem="fKy-Mm-qKc" firstAttribute="top" secondItem="Eje-sV-dps" secondAttribute="top" constant="112" id="MXC-fs-bU1"/>
+                            <constraint firstItem="Eje-sV-dps" firstAttribute="trailing" secondItem="NmJ-GP-TQi" secondAttribute="trailing" constant="20" id="OEr-n2-Noi"/>
+                            <constraint firstItem="fKy-Mm-qKc" firstAttribute="top" secondItem="kDL-i3-XA7" secondAttribute="bottom" constant="8" symbolic="YES" id="Ovt-lF-AbL"/>
+                            <constraint firstItem="NmJ-GP-TQi" firstAttribute="leading" secondItem="Eje-sV-dps" secondAttribute="leading" constant="20" id="PgH-eE-OPh"/>
+                            <constraint firstItem="Eje-sV-dps" firstAttribute="trailing" secondItem="fKy-Mm-qKc" secondAttribute="trailing" constant="20" id="QvO-s8-BB6"/>
+                            <constraint firstItem="JCc-xm-iFT" firstAttribute="top" secondItem="xGR-je-yZ5" secondAttribute="bottom" constant="20" id="UGj-iP-Zz0"/>
+                            <constraint firstItem="UeE-Ym-iz2" firstAttribute="leading" secondItem="Eje-sV-dps" secondAttribute="leading" constant="20" id="Yjo-U4-AM9"/>
+                            <constraint firstAttribute="trailing" secondItem="kDL-i3-XA7" secondAttribute="trailing" id="aTc-WO-3kB"/>
+                            <constraint firstItem="UeE-Ym-iz2" firstAttribute="top" secondItem="JCc-xm-iFT" secondAttribute="bottom" constant="20" id="crK-fh-SwI"/>
+                            <constraint firstItem="sgw-TD-1oR" firstAttribute="leading" secondItem="Eje-sV-dps" secondAttribute="leading" constant="20" id="cuh-jX-MuR"/>
+                            <constraint firstItem="NmJ-GP-TQi" firstAttribute="top" secondItem="UeE-Ym-iz2" secondAttribute="bottom" constant="20" id="g5g-WH-ia7"/>
+                            <constraint firstItem="fKy-Mm-qKc" firstAttribute="leading" secondItem="Eje-sV-dps" secondAttribute="leading" constant="20" id="hII-vB-MaV"/>
+                            <constraint firstItem="sgw-TD-1oR" firstAttribute="top" secondItem="NmJ-GP-TQi" secondAttribute="bottom" constant="20" id="hPH-uk-cIN"/>
+                            <constraint firstItem="kDL-i3-XA7" firstAttribute="leading" secondItem="8pq-86-X6Y" secondAttribute="leading" id="lun-jn-MFn"/>
+                            <constraint firstItem="Eje-sV-dps" firstAttribute="trailing" secondItem="xGR-je-yZ5" secondAttribute="trailing" constant="20" id="ncf-oB-8Eo"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="LimpezadePeleButton" destination="UeE-Ym-iz2" id="hav-IQ-FC4"/>
+                        <outlet property="MicroagulhamentoButton" destination="NmJ-GP-TQi" id="64I-p6-AaR"/>
+                        <outlet property="depilacaoButton" destination="sgw-TD-1oR" id="e8U-RS-CoY"/>
+                        <outlet property="drenagemLinfaticaButton" destination="JCc-xm-iFT" id="TrT-fV-4Ho"/>
+                        <outlet property="massagemModeladoraButton" destination="fKy-Mm-qKc" id="QVB-PF-7BX"/>
+                        <outlet property="massagemRelaxanteButton" destination="xGR-je-yZ5" id="75t-5a-Tvr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GeS-pv-0ET" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1805.7971014492755" y="87.723214285714278"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tmp-yG-gUl">
+            <objects>
+                <viewController id="2QB-7H-ziW" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9yG-hU-hx9">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Massagem Modeladora" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pTt-hr-wGx">
+                                <rect key="frame" x="69" y="88" width="276" height="73"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="25"/>
+                                <color key="textColor" red="0.39204788210000002" green="0.2215367556" blue="0.3411859572" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Modeladora.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="OT4-r3-iVW">
+                                <rect key="frame" x="53" y="169" width="308" height="179"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ptf-65-L0F">
+                                <rect key="frame" x="31" y="370" width="352" height="296"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">A massagem modeladora utiliza movimentos manuais fortes e profundos reorganizando as camadas de gordura promovendo um contorno corporal mais belo, disfarçando a gordura localizada. Além disso, atua melhorando a circulação vascular periférica e o metabolismo local eliminando as toxinas.</string>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="22"/>
+                                <color key="textColor" red="0.36460509899999999" green="0.2140082717" blue="0.3176553547" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="R$ 149,00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F2P-Pc-pJK">
+                                <rect key="frame" x="31" y="750" width="352" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.82306617500000001" green="0.62044495340000005" blue="0.56468850370000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Duração do serviço" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EDq-J0-CAc">
+                                <rect key="frame" x="69" y="700" width="160" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.82306617500000001" green="0.62044495340000005" blue="0.56468850370000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" 1 hora." textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sWJ-0a-DAf">
+                                <rect key="frame" x="228" y="700" width="155" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.85848385100000002" green="0.61226409670000004" blue="0.55155527589999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="clock" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="2bb-VC-KXw">
+                                <rect key="frame" x="31" y="702.5" width="32" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.36460509899999999" green="0.2140082717" blue="0.3176553547" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="D87-Nd-Shi"/>
+                        <color key="backgroundColor" red="0.92522376780000004" green="0.83982992170000004" blue="0.79606884720000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="8z3-Fd-Hd3"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fGv-B9-xKB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2573.913043478261" y="-1637.2767857142856"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="vWd-Ts-cGQ">
+            <objects>
+                <viewController id="qaE-M3-iZ5" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XHz-wD-IeM">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Massagem Relaxante" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ngh-ij-a9v">
+                                <rect key="frame" x="69" y="88" width="276" height="73"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="25"/>
+                                <color key="textColor" red="0.39204788210000002" green="0.2215367556" blue="0.3411859572" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1709-relaxante.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="FOI-AQ-rzv">
+                                <rect key="frame" x="53" y="153" width="308" height="179"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J1r-qB-Nnx">
+                                <rect key="frame" x="31" y="354" width="353" height="343"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">É uma variação da massagem ayurvédica. Com a utilização de óleos vegetais, essa massagem diminui as toxinas das células, melhora os sistemas circulatório, imunológico e digestivo, fortalece os músculos e articulações, alivia as tensões e dores musculares e aumenta a flexibilidade.</string>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="22"/>
+                                <color key="textColor" red="0.36460509899999999" green="0.2140082717" blue="0.3176553547" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="R$ 119,00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GX9-7H-kxP">
+                                <rect key="frame" x="32" y="757" width="352" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.82306617500000001" green="0.62044495340000005" blue="0.56468850370000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Duração do serviço" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zwS-Dy-OBv">
+                                <rect key="frame" x="69" y="705" width="160" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.82306617500000001" green="0.62044495340000005" blue="0.56468850370000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" 1 hora." textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XUd-BJ-z1g">
+                                <rect key="frame" x="229" y="705" width="155" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.85848385100000002" green="0.61226409670000004" blue="0.55155527589999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="clock" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="SeU-yd-UfP">
+                                <rect key="frame" x="32" y="707.5" width="32" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.36460509899999999" green="0.2140082717" blue="0.3176553547" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="3z4-do-2nZ"/>
+                        <color key="backgroundColor" red="0.9252308011" green="0.83977973459999999" blue="0.79999113079999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Diq-qz-een"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wnS-hC-7iJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2573.913043478261" y="-946.20535714285711"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="mVD-h4-dSF">
+            <objects>
+                <viewController id="lMB-YN-VJx" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IdI-nV-a0V">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Drenagem Linfática" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bzP-gh-Uia">
+                                <rect key="frame" x="69" y="88" width="276" height="73"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="25"/>
+                                <color key="textColor" red="0.39204788210000002" green="0.2215367556" blue="0.3411859572" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kw8-8y-IER">
+                                <rect key="frame" x="31" y="357" width="353" height="346"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Drenagem linfática é uma técnica de massagem manual (DLM) que tem como objetivo estimular o sistema linfático a eliminar o excesso de fluidos do corpo. Apoiada em evidências científicas, a DLM é reconhecida e indicada para auxiliar em vários tratamentos estéticos, além de promover relaxamento e bem-estar.</string>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="22"/>
+                                <color key="textColor" red="0.36460509899999999" green="0.2140082717" blue="0.3176553547" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="drenagem-linfatica_54228_l.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="610-qE-xDY">
+                                <rect key="frame" x="53" y="157" width="308" height="179"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="R$ 149,00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MOv-ZY-eEo">
+                                <rect key="frame" x="31" y="759" width="352" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.82352941176470584" green="0.61960784313725492" blue="0.56470588235294117" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" 1 hora." textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uu0-rQ-h29">
+                                <rect key="frame" x="228" y="709" width="155" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.85848385100000002" green="0.61226409670000004" blue="0.55155527589999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Duração do serviço" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Fa-rf-fA4">
+                                <rect key="frame" x="69" y="709" width="160" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.82306617500000001" green="0.62044495340000005" blue="0.56468850370000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="clock" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="8av-2F-VDz">
+                                <rect key="frame" x="31" y="711.5" width="32" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.36460509899999999" green="0.2140082717" blue="0.3176553547" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="KNX-b7-p0h"/>
+                        <color key="backgroundColor" red="0.92522376780000004" green="0.83982992170000004" blue="0.79606884720000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="6GA-Ek-qWv"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="b2A-Na-kf0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2573.913043478261" y="-280.58035714285711"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="UlU-4D-Yxe">
+            <objects>
+                <viewController id="8H7-Ib-DWj" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="127-4q-tuh">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Limpeza de Pele" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q9U-bq-jzA">
+                                <rect key="frame" x="69" y="88" width="276" height="73"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="25"/>
+                                <color key="textColor" red="0.39204788210000002" green="0.2215367556" blue="0.3411859572" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UNb-gq-sTv">
+                                <rect key="frame" x="31" y="352" width="353" height="347"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">A limpeza de pele é um dos procedimentos mais procurados pelas mulheres em clínicas de estética. Esta tem objetivo de remover os cravos e as impurezas da pele. Logo, ela proporciona uma série de benefícios como a renovação celular, o aspecto de pele mais lisa e saudável, além da redução dos poros. </string>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="22"/>
+                                <color key="textColor" red="0.36460509899999999" green="0.2140082717" blue="0.3176553547" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="highlightedColor" systemColor="placeholderTextColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="limpeza-de-pele.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="hOh-59-uTA">
+                                <rect key="frame" x="53" y="152" width="308" height="179"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="R$ 149,00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l0e-Xa-meT">
+                                <rect key="frame" x="32" y="757" width="352" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.82306617500000001" green="0.62044495340000005" blue="0.56468850370000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Duração do serviço" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YMG-iV-krk">
+                                <rect key="frame" x="69" y="707" width="160" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.82306617500000001" green="0.62044495340000005" blue="0.56468850370000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1 hora e meia." textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J5c-ny-OfO">
+                                <rect key="frame" x="229" y="707" width="155" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.85848385100000002" green="0.61226409670000004" blue="0.55155527589999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="clock" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="ufO-dv-uDb">
+                                <rect key="frame" x="32" y="709.5" width="32" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.36460509899999999" green="0.2140082717" blue="0.3176553547" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="LvM-LC-vXB"/>
+                        <color key="backgroundColor" red="0.92522376780000004" green="0.83982992170000004" blue="0.79606884720000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="oix-Ag-9fF"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DlC-gh-ZU7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2573.913043478261" y="375"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="H0P-sQ-lKo">
+            <objects>
+                <viewController id="w7c-0C-MXP" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="EFk-Qk-AHb">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Microagulhamento" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SqB-gH-nLt">
+                                <rect key="frame" x="69" y="88" width="276" height="73"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="25"/>
+                                <color key="textColor" red="0.39204788210000002" green="0.2215367556" blue="0.3411859572" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="microagulhamento.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="8su-9s-hft">
+                                <rect key="frame" x="53" y="149" width="308" height="179"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="R$ 349,00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Da-vg-b0Y">
+                                <rect key="frame" x="32" y="773" width="352" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.82306617500000001" green="0.62044495340000005" blue="0.56468850370000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Duração do serviço" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="odY-1k-dcn">
+                                <rect key="frame" x="69" y="724" width="160" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.82306617500000001" green="0.62044495340000005" blue="0.56468850370000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" 1 hora." textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YBl-65-sky">
+                                <rect key="frame" x="229" y="724" width="155" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.85848385100000002" green="0.61226409670000004" blue="0.55155527589999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="clock" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="pHG-ay-xOm">
+                                <rect key="frame" x="32" y="726.5" width="32" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.36460509899999999" green="0.2140082717" blue="0.3176553547" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3yS-Sh-IBR">
+                                <rect key="frame" x="29" y="364" width="355" height="334"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">O microagulhamento é um tratamento estético que serve para remover cicatrizes de acne, disfarçar manchas, outras cicatrizes, rugas ou linhas de expressão da pele, através de uma estimulação natural feita com micro-agulhas que penetram na derme favorecendo a formação de novas fibras de colágeno, que dão firmeza e sustentação à pele.
+
+</string>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="22"/>
+                                <color key="textColor" red="0.36460509899999999" green="0.2140082717" blue="0.3176553547" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="highlightedColor" systemColor="labelColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="4kt-sG-gXY"/>
+                        <color key="backgroundColor" red="0.92549019607843142" green="0.83921568627450982" blue="0.79607843137254897" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="90X-pi-nb9"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iuI-N5-HvD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2573.913043478261" y="1027.9017857142858"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="DHB-zC-s2q">
+            <objects>
+                <viewController id="xab-aQ-cmk" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="VpQ-et-XdN">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Depilação" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vfv-R7-eTL">
+                                <rect key="frame" x="20" y="98" width="374" height="29"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="25"/>
+                                <color key="textColor" red="0.39204788210000002" green="0.2215367556" blue="0.3411859572" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vnz-mU-pQb">
+                                <rect key="frame" x="31" y="343" width="353" height="395"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">A Luz Intensa Pulsada é um tipo de tratamento semelhante ao laser, que pode ser usado para remover manchas na pele, combater rugas e linhas de expressão e remover os pelos indesejados por todo o corpo, especialmente no rosto, peito, abdômen, braços, axilas, virilhas e pernas.</string>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="22"/>
+                                <color key="textColor" red="0.36460509899999999" green="0.2140082717" blue="0.3176553547" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Luz-Intensa-Pulsada-1-1000x658.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="JLb-3A-q60">
+                                <rect key="frame" x="53" y="156" width="308" height="179"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="A partir de 1 hora." textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z6j-AX-mFD">
+                                <rect key="frame" x="229" y="746" width="155" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.85848385100000002" green="0.61226409670000004" blue="0.55155527589999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="clock" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="t6K-Eq-1rO">
+                                <rect key="frame" x="32" y="748.5" width="32" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.36460509899999999" green="0.2140082717" blue="0.3176553547" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="A partir de R$ 100,00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Tp-R8-0YT">
+                                <rect key="frame" x="31" y="796" width="353" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.85848385100000002" green="0.61226409670000004" blue="0.55155527589999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Duração do serviço" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zwd-Br-IHF">
+                                <rect key="frame" x="72" y="746" width="160" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.82306617500000001" green="0.62044495340000005" blue="0.56468850370000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="sPc-1a-lJD"/>
+                        <color key="backgroundColor" red="0.92522376780000004" green="0.83982992170000004" blue="0.79606884720000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="Vfv-R7-eTL" firstAttribute="top" secondItem="sPc-1a-lJD" secondAttribute="top" constant="10" id="Dqf-a6-HDH"/>
+                            <constraint firstItem="Vfv-R7-eTL" firstAttribute="leading" secondItem="sPc-1a-lJD" secondAttribute="leading" constant="20" id="MoM-eL-IdB"/>
+                            <constraint firstItem="sPc-1a-lJD" firstAttribute="trailing" secondItem="Vfv-R7-eTL" secondAttribute="trailing" constant="20" id="afA-zv-yuw"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Y7Q-Wp-t2B"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ldj-bh-fBd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2573.913043478261" y="1698.8839285714284"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="projetoFaculdade" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kzI-ge-IX5">
+                                <rect key="frame" x="20" y="656" width="374" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.48639617303405147" green="0.39492369356943724" blue="0.38580265822388432" alpha="0.46587740664450539" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="20"/>
+                                <state key="normal" title="Abrir Catálogo">
+                                    <color key="titleColor" red="0.36491762993166044" green="0.29629060887189018" blue="0.28944757271052413" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <segue destination="aM8-Ts-zsE" kind="show" id="MlS-Ct-txE"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="WhatsApp Image 2021-10-13 at 20.02.16.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="swW-Y3-GIh">
+                                <rect key="frame" x="-54" y="88" width="522" height="594"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.40375232700000002" green="0.32564172149999998" blue="0.31764304640000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.93195551629999995" green="0.91845804450000001" blue="0.90702116489999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="r1d-Gk-rZf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" id="0ng-T3-oox">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </mapView>
+            </objects>
+            <point key="canvasLocation" x="1047.8260869565217" y="88.392857142857139"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="GiS-kB-eQa">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Bn4-Fo-k1P" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="kys-Px-QLF">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="acQ-pC-5u0"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jJ5-aG-UFs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="88.392857142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1709-relaxante.jpg" width="192" height="128.16000366210938"/>
+        <image name="Luz-Intensa-Pulsada-1-1000x658.jpg" width="750" height="493.5"/>
+        <image name="Modeladora.jpeg" width="614.4000244140625" height="409.92001342773438"/>
+        <image name="WhatsApp Image 2021-10-13 at 20.02.16.jpeg" width="500" height="500"/>
+        <image name="clock" catalog="system" width="128" height="121"/>
+        <image name="drenagem-linfatica_54228_l.jpeg" width="640" height="427"/>
+        <image name="limpeza-de-pele.jpeg" width="900" height="640"/>
+        <image name="microagulhamento.jpg" width="436.32000732421875" height="290.8800048828125"/>
+        <image name="unnamed.jpg" width="512" height="353"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="placeholderTextColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="secondarySystemGroupedBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="tertiarySystemGroupedBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC5211D227024EC5003F1A5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5211D127024EC5003F1A5F /* AppDelegate.swift */; };
+		DC5211D427024EC5003F1A5F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5211D327024EC5003F1A5F /* SceneDelegate.swift */; };
+		DC5211D627024EC5003F1A5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5211D527024EC5003F1A5F /* ViewController.swift */; };
+		DC5211D927024EC5003F1A5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC5211D727024EC5003F1A5F /* Main.storyboard */; };
+		DC5211DB27024ECE003F1A5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC5211DA27024ECE003F1A5F /* Assets.xcassets */; };
+		DC5211DE27024ECE003F1A5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC5211DC27024ECE003F1A5F /* LaunchScreen.storyboard */; };
+		DCC7BE5D27179052006C2155 /* ProcedimentosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC7BE5C27179052006C2155 /* ProcedimentosViewController.swift */; };
+		DCC7BE5F27179D4D006C2155 /* WhatsApp Image 2021-10-13 at 18.14.30.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DCC7BE5E27179D4D006C2155 /* WhatsApp Image 2021-10-13 at 18.14.30.jpeg */; };
+		DCC7BE6127179E32006C2155 /* WhatsApp Image 2021-10-13 at 20.02.16.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DCC7BE6027179E32006C2155 /* WhatsApp Image 2021-10-13 at 20.02.16.jpeg */; };
+		DCC7BE632717BA21006C2155 /* unnamed.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DCC7BE622717BA21006C2155 /* unnamed.jpg */; };
+		DCFF18B1270F6CDC00067E7F /* Modeladora.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DCFF18AB270F6CDB00067E7F /* Modeladora.jpeg */; };
+		DCFF18B2270F6CDC00067E7F /* limpeza-de-pele.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DCFF18AC270F6CDB00067E7F /* limpeza-de-pele.jpeg */; };
+		DCFF18B3270F6CDC00067E7F /* 1709-relaxante.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DCFF18AD270F6CDB00067E7F /* 1709-relaxante.jpg */; };
+		DCFF18B4270F6CDC00067E7F /* microagulhamento.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DCFF18AE270F6CDB00067E7F /* microagulhamento.jpg */; };
+		DCFF18B5270F6CDC00067E7F /* drenagem-linfatica_54228_l.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DCFF18AF270F6CDB00067E7F /* drenagem-linfatica_54228_l.jpeg */; };
+		DCFF18B6270F6CDC00067E7F /* Luz-Intensa-Pulsada-1-1000x658.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DCFF18B0270F6CDC00067E7F /* Luz-Intensa-Pulsada-1-1000x658.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DC5211CE27024EC5003F1A5F /* projetoFaculdade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = projetoFaculdade.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC5211D127024EC5003F1A5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC5211D327024EC5003F1A5F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DC5211D527024EC5003F1A5F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC5211D827024EC5003F1A5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC5211DA27024ECE003F1A5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC5211DD27024ECE003F1A5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC5211DF27024ECE003F1A5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCC7BE5C27179052006C2155 /* ProcedimentosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcedimentosViewController.swift; sourceTree = "<group>"; };
+		DCC7BE5E27179D4D006C2155 /* WhatsApp Image 2021-10-13 at 18.14.30.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "WhatsApp Image 2021-10-13 at 18.14.30.jpeg"; sourceTree = "<group>"; };
+		DCC7BE6027179E32006C2155 /* WhatsApp Image 2021-10-13 at 20.02.16.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "WhatsApp Image 2021-10-13 at 20.02.16.jpeg"; sourceTree = "<group>"; };
+		DCC7BE622717BA21006C2155 /* unnamed.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = unnamed.jpg; sourceTree = "<group>"; };
+		DCFF18AB270F6CDB00067E7F /* Modeladora.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Modeladora.jpeg; sourceTree = "<group>"; };
+		DCFF18AC270F6CDB00067E7F /* limpeza-de-pele.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "limpeza-de-pele.jpeg"; sourceTree = "<group>"; };
+		DCFF18AD270F6CDB00067E7F /* 1709-relaxante.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1709-relaxante.jpg"; sourceTree = "<group>"; };
+		DCFF18AE270F6CDB00067E7F /* microagulhamento.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = microagulhamento.jpg; sourceTree = "<group>"; };
+		DCFF18AF270F6CDB00067E7F /* drenagem-linfatica_54228_l.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "drenagem-linfatica_54228_l.jpeg"; sourceTree = "<group>"; };
+		DCFF18B0270F6CDC00067E7F /* Luz-Intensa-Pulsada-1-1000x658.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Luz-Intensa-Pulsada-1-1000x658.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC5211CB27024EC5003F1A5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC5211C527024EC4003F1A5F = {
+			isa = PBXGroup;
+			children = (
+				DC5211D027024EC5003F1A5F /* projetoFaculdade */,
+				DC5211CF27024EC5003F1A5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC5211CF27024EC5003F1A5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC5211CE27024EC5003F1A5F /* projetoFaculdade.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC5211D027024EC5003F1A5F /* projetoFaculdade */ = {
+			isa = PBXGroup;
+			children = (
+				DCC7BE622717BA21006C2155 /* unnamed.jpg */,
+				DCC7BE6027179E32006C2155 /* WhatsApp Image 2021-10-13 at 20.02.16.jpeg */,
+				DCC7BE5E27179D4D006C2155 /* WhatsApp Image 2021-10-13 at 18.14.30.jpeg */,
+				DCFF18AD270F6CDB00067E7F /* 1709-relaxante.jpg */,
+				DCFF18AF270F6CDB00067E7F /* drenagem-linfatica_54228_l.jpeg */,
+				DCFF18AC270F6CDB00067E7F /* limpeza-de-pele.jpeg */,
+				DCFF18B0270F6CDC00067E7F /* Luz-Intensa-Pulsada-1-1000x658.jpg */,
+				DCFF18AE270F6CDB00067E7F /* microagulhamento.jpg */,
+				DCFF18AB270F6CDB00067E7F /* Modeladora.jpeg */,
+				DC5211D127024EC5003F1A5F /* AppDelegate.swift */,
+				DC5211D327024EC5003F1A5F /* SceneDelegate.swift */,
+				DC5211D527024EC5003F1A5F /* ViewController.swift */,
+				DC5211D727024EC5003F1A5F /* Main.storyboard */,
+				DC5211DA27024ECE003F1A5F /* Assets.xcassets */,
+				DC5211DC27024ECE003F1A5F /* LaunchScreen.storyboard */,
+				DC5211DF27024ECE003F1A5F /* Info.plist */,
+				DCC7BE5C27179052006C2155 /* ProcedimentosViewController.swift */,
+			);
+			path = projetoFaculdade;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC5211CD27024EC5003F1A5F /* projetoFaculdade */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC5211E227024ECE003F1A5F /* Build configuration list for PBXNativeTarget "projetoFaculdade" */;
+			buildPhases = (
+				DC5211CA27024EC5003F1A5F /* Sources */,
+				DC5211CB27024EC5003F1A5F /* Frameworks */,
+				DC5211CC27024EC5003F1A5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = projetoFaculdade;
+			productName = projetoFaculdade;
+			productReference = DC5211CE27024EC5003F1A5F /* projetoFaculdade.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC5211C627024EC4003F1A5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					DC5211CD27024EC5003F1A5F = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = DC5211C927024EC4003F1A5F /* Build configuration list for PBXProject "projetoFaculdade" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC5211C527024EC4003F1A5F;
+			productRefGroup = DC5211CF27024EC5003F1A5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC5211CD27024EC5003F1A5F /* projetoFaculdade */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC5211CC27024EC5003F1A5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCFF18B1270F6CDC00067E7F /* Modeladora.jpeg in Resources */,
+				DCFF18B6270F6CDC00067E7F /* Luz-Intensa-Pulsada-1-1000x658.jpg in Resources */,
+				DCC7BE632717BA21006C2155 /* unnamed.jpg in Resources */,
+				DC5211DE27024ECE003F1A5F /* LaunchScreen.storyboard in Resources */,
+				DCFF18B4270F6CDC00067E7F /* microagulhamento.jpg in Resources */,
+				DCFF18B2270F6CDC00067E7F /* limpeza-de-pele.jpeg in Resources */,
+				DC5211DB27024ECE003F1A5F /* Assets.xcassets in Resources */,
+				DCFF18B5270F6CDC00067E7F /* drenagem-linfatica_54228_l.jpeg in Resources */,
+				DC5211D927024EC5003F1A5F /* Main.storyboard in Resources */,
+				DCC7BE5F27179D4D006C2155 /* WhatsApp Image 2021-10-13 at 18.14.30.jpeg in Resources */,
+				DCFF18B3270F6CDC00067E7F /* 1709-relaxante.jpg in Resources */,
+				DCC7BE6127179E32006C2155 /* WhatsApp Image 2021-10-13 at 20.02.16.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC5211CA27024EC5003F1A5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC5211D627024EC5003F1A5F /* ViewController.swift in Sources */,
+				DCC7BE5D27179052006C2155 /* ProcedimentosViewController.swift in Sources */,
+				DC5211D227024EC5003F1A5F /* AppDelegate.swift in Sources */,
+				DC5211D427024EC5003F1A5F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DC5211D727024EC5003F1A5F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC5211D827024EC5003F1A5F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC5211DC27024ECE003F1A5F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC5211DD27024ECE003F1A5F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC5211E027024ECE003F1A5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC5211E127024ECE003F1A5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC5211E327024ECE003F1A5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 53US447F9Y;
+				INFOPLIST_FILE = projetoFaculdade/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = App.projetoFaculdade;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC5211E427024ECE003F1A5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 53US447F9Y;
+				INFOPLIST_FILE = projetoFaculdade/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = App.projetoFaculdade;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC5211C927024EC4003F1A5F /* Build configuration list for PBXProject "projetoFaculdade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC5211E027024ECE003F1A5F /* Debug */,
+				DC5211E127024ECE003F1A5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC5211E227024ECE003F1A5F /* Build configuration list for PBXNativeTarget "projetoFaculdade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC5211E327024ECE003F1A5F /* Debug */,
+				DC5211E427024ECE003F1A5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC5211C627024EC4003F1A5F /* Project object */;
+}
